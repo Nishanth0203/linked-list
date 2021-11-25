@@ -8,7 +8,7 @@ void traversal(struct node *head)
 {
     struct node *ptr=head;
     do{
-        printf("Element is : %d\n",ptr->data);
+        printf("Element iss : %d\n",ptr->data);
         ptr=ptr->next;
     }while(ptr!=head);
 }
